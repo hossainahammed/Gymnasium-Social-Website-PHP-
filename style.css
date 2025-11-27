@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+}
+
+input, textarea{
+    border: 2px solid rgb(209, 193, 193);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input:hover, textarea:hover{
+    border: 2px solid green;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.form, .table{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form .share-btn{
+    background-color:#e91e63;
+    color: white;
+    font-weight: bolder;
+}
+.table a,.action a{
+    background-color: #2168ec;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.table a:hover,.action a:hover{
+    background-color:#e91e63;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.table .del,.action .del{
+    background-color: #e06411;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.table .del:hover,.action .del:hover{
+    background-color:#f30f08;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+    
+
+a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+.nav{
+    height: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo h1{
+    color: white;
+}
+
+.links{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.links a{
+    color: white;
+}
+.Data_Box {
+    width: 60%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.cards {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 90%;
+    min-height: 100px;
+    background-color:#fff;
+    border-left: 6px solid #e91e63;
+    border-right: 6px solid #e91e63;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+.content{
+    padding: 10px;
+    text-align: center;
+}
+.content h4{
+    margin-top: 2px;
+}
+
+.content p{
+    margin-top: 3px;
+}
+.contact {
+padding: 40px;
+background-color: #fff3e0;
+text-align: center;
+}
+
+.contact h2 {
+color: #e65100;
+margin-bottom: 20px;
+}
+
+.contact form {
+max-width: 500px;
+margin: auto;
+}
+
+.contact input,
+.contact textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.contact button {
+padding: 10px 20px;
+background-color: #e91e63;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.footer {
+background-color: #1a1a1a;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+.Main-Box {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Side-Bar1,
+.Side-Bar2 {
+    width: 20%;
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 300px;
+}
+.Side-Bar1 h3,
+.Side-Bar2 h3 {
+ text-align: center;
+}
+
+.Side-Bar1 ul li,
+.Side-Bar2 ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.Side-Bar1 ul li a,
+.Side-Bar2 ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: color 0.3s;
+}
+
+.Side-Bar1 ul li a:hover,
+.Side-Bar2 ul li a:hover {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+
+
+
+
+
